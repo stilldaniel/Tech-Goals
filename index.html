@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Tech Goals</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="img/Daniel.jpg" alt="Profile Picture" class="profile-picture" data-testid="slackProfilePicture">
+            <div class="header-content">
+                <h1 data-testid="title">My Goals in Tech</h1>
+                <p class="slack-username" data-testid="slackDisplayName">stilldaniel</p>
+                <p data-testid="currentTimeUTC">Current UTC Time: <span id="utcTime"></span></p>
+                <p data-testid="currentDay">Current Day: <span id="currentDay"></span></p>
+                <p data-testid="slackEmail">Email: ogundipedanny@gmail.com</p>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section data-testid="year1-goals" class="goals">
+            <h2>Year 1</h2>
+            <ul>
+                <li data-testid="goal1">Improve my frontend development skills by working on various projects and contributing to open source.</li>
+                <li data-testid="goal2">Learn advanced React and explore other frontend frameworks like Angular and Vue.js.</li>
+                <li data-testid="goal3">Build a personal portfolio website to showcase my work.</li>
+            </ul>
+        </section>
+        <section data-testid="year2-goals" class="goals">
+            <h2>Year 2</h2>
+            <ul>
+                <li data-testid="goal4">Master backend development with Node.js and Express.</li>
+                <li data-testid="goal5">Develop a full-stack application from scratch.</li>
+                <li data-testid="goal6">Secure a full-time job as a frontend developer at a reputed company.</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="container">
+        <p>&copy; 2024 My Tech Journey</p>
+        <nav>
+            <a href="https://hng.tech/learn" data-testid="hngLink">Learn with HNG</a>
+            <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
+            <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
